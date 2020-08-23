@@ -2,9 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_movement(){
 
-	
+
 	//--------------SPEED BY WITCH THE PLAYER MOVES NORMALLY
-	spd = 5;
 	//--------------WHERE I WANT TO MOVE
 	move_up = keyboard_check(ord("W"));
 	move_down = keyboard_check(ord("S"));
@@ -16,11 +15,12 @@ function scr_movement(){
 	//--------------------PLAYER MOVEMENT CALCULUS
 	k = (move_down - move_up) ;
 	move_X = (move_right - move_left) * spd;
-	move_Y = 0;
+	
 
 
 
 if((move_up)){
+	spd = 3;
 	if(propulsionSpeed < 20){
 		propulsionSpeed += 0.1;
 	}
@@ -41,7 +41,6 @@ if((move_up)){
 	}
 	
 	//-----------GRAVITY
-	show_debug_message(progressiveFall);
 	if !place_meeting(x, y+1, obj_interactuable){
 		if(progressiveFall < 30){
 			progressiveFall += ln(progressiveFall+0.01)/fall_speed;
@@ -78,17 +77,16 @@ if(canJump > 0 ){
 				if(!place_meeting(x,y+sign(move_Y),obj_interactuable)){ y += sign(move_Y) }
 				else{	break;	}
 			}
-			
-			camara.screenshake = true;
+			//camara.screenshake = true;
 			camara.magnitude = progressiveFall / 10; 
-			
 			progressiveFall = 1;
 			freeFall = false;
 			move_Y = 0;
-			
+			spd = 13;
 			//FLAG SCREENSHAKE
 			
 		}
+		
 	}
 	//--------------------MODIFY THE PLAYER POSITION TO MAKE MOVEMENT EFFECTIVE
 

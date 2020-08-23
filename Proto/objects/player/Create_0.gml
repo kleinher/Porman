@@ -3,3 +3,5 @@
 event_inherited();
 jump = false;
 k = 0;
+
+doSquash = false;
