@@ -4,10 +4,6 @@ event_inherited();
 depth = -1;
 scr_visualPlayer();
 
-//CREATE THE OBJECT THAT WILL DISPLAY MY SPRITES
-instance_create_depth(x, y, depth, obj_player_displayer);
-
-
 //ANIMATIONS
 
 //VARS
