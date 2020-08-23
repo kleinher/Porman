@@ -21,6 +21,7 @@ function scr_movement(){
 
 if((move_up)){
 	spd = 3;
+	obj_gun.image_angle = -90;
 	if(propulsionSpeed < 20){
 		propulsionSpeed += 0.1;
 	}
