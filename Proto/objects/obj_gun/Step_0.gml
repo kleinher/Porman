@@ -12,3 +12,6 @@ if(instance_exists(player)){
 }
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 depth = player.depth-1;
+
+image_xscale = 2;
+image_yscale = 2;
