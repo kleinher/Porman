@@ -14,9 +14,11 @@
     {"id":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},"order":6,},
     {"id":{"name":"obj_visualPlayer","path":"objects/obj_visualPlayer/obj_visualPlayer.yy",},"order":7,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":1,},
+    {"id":{"name":"spr_player_collisioner","path":"sprites/spr_player_collisioner/spr_player_collisioner.yy",},"order":5,},
     {"id":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"order":4,},
     {"id":{"name":"camara","path":"objects/camara/camara.yy",},"order":1,},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},"order":4,},
+    {"id":{"name":"obj_player_displayer","path":"objects/obj_player_displayer/obj_player_displayer.yy",},"order":8,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

@@ -77,13 +77,20 @@ if(canJump > 0 ){
 				if(!place_meeting(x,y+sign(move_Y),obj_interactuable)){ y += sign(move_Y) }
 				else{	break;	}
 			}
+			
+			//FLAG SCREENSHAKE
 			//camara.screenshake = true;
 			camara.magnitude = progressiveFall / 10; 
+			
+			//FLAG ANIMATION SQUASH
+			doSquash = 0;		
+			alarm[0] = -4;
+			
 			progressiveFall = 1;
 			freeFall = false;
 			move_Y = 0;
 			spd = 13;
-			//FLAG SCREENSHAKE
+			
 			
 		}
 		

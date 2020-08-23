@@ -4,4 +4,7 @@ event_inherited();
 jump = false;
 k = 0;
 
-doSquash = false;
+doSquash = -1;
+
+//ANIMATION ALARM
+alarm[0] = -4;
