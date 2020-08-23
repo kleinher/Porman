@@ -12,6 +12,7 @@
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":1,},
     {"id":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"order":4,},
     {"id":{"name":"camara","path":"objects/camara/camara.yy",},"order":1,},
+    {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
