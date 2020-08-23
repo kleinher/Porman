@@ -4,7 +4,7 @@ function scr_movement(){
 	
 	
 	//--------------SPEED BY WITCH THE PLAYER MOVES NORMALLY
-	spd = 1;
+	spd = 5;
 	//--------------WHERE I WANT TO MOVE
 	move_up = keyboard_check(ord("W"));
 	move_down = keyboard_check(ord("S"));

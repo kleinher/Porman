@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-fall_speed = 1;
+fall_speed = 6;
 state = scr_movement;
 freeFall = true;
 aux=1;
