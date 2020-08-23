@@ -24,7 +24,11 @@ if((move_up)){
 	if(propulsionSpeed < 20){
 		propulsionSpeed += 0.1;
 	}
+	//-----------------PROPULTION MOMENTUM: when you go up you can change the added 
+	//				   momentum when the W key is realesed changing the maximum valeu of canJump
+	if(canJump < 3){
 		canJump += ln(propulsionSpeed);
+	}
 }else{
 	if(canJump < 0){
 		canJump= 0;
@@ -42,10 +46,9 @@ if((move_up)){
 		if(progressiveFall < 30){
 			progressiveFall += ln(progressiveFall+0.01)/fall_speed;
 		}
-	move_Y += progressiveFall;	
+		move_Y += progressiveFall;	
 	}
 }
-
 //---------------CAIDA DEL SALTO PROGRESIVA
 if(canJump > 0 ){ 
 
