@@ -2,11 +2,11 @@
 // You can write your code in this editor
 if(instance_exists(player)){
 	if(rotated){
-		x= player.x-7;
-		y= player.y-11;
+		x= player.x-7*2;
+		y= player.y-11*2;
 	}else{
-		x= player.x+7;
-		y= player.y-11;
+		x= player.x+7*2;
+		y= player.y-11*2;
 	}
 	
 }

@@ -4,9 +4,11 @@ function scr_visualPlayer(){
 	if(player.x > mouse_x){
 		obj_gun.rotated = true;
 		image_xscale = -2;	
+		image_yscale = 2;
 	}else{
 		obj_gun.rotated = false;
 		image_xscale = 2;
+		image_yscale = 2;
 	}	
 	
 	
