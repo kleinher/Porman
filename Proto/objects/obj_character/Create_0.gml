@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 fall_speed = 2;
-aux=0;
 move_Y = 0;
 progressiveFall = 1;
-gravitySpeed = 0.1;
 propulsionSpeed = 1;
 freeFall = true;
 spd = 5;

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "grp_player",
-    "path": "folders/Scripts/grp_player.yy",
+    "name": "grp_Interaction",
+    "path": "folders/Scripts/grp_Interaction.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_playerSpriteIdle",
+  "name": "scr_colitionSystem",
   "tags": [],
   "resourceType": "GMScript",
 }

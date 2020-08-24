@@ -35,6 +35,7 @@ if((move_up)){
 		canJump= 0;
 		progressiveFall = 1;
 	}
+	
 	// SHOOTING BULLETS
 	if(mouse_check_button_pressed(mb_left)){
 		var inst = instance_create_layer(x,y,"Bullets", obj_bullet);
@@ -42,12 +43,7 @@ if((move_up)){
 	}
 	
 	//-----------GRAVITY
-	if !place_meeting(x, y+1, obj_interactuable){
-		if(progressiveFall < 30){
-			progressiveFall += ln(progressiveFall+0.01)/fall_speed;
-		}
-		move_Y += progressiveFall;	
-	}
+	scr_gravity();
 }
 //---------------CAIDA DEL SALTO PROGRESIVA
 if(canJump > 0 ){ 
@@ -56,46 +52,7 @@ if(canJump > 0 ){
 	move_Y = jSpeed*-1;
 }
 
-	//-------------------DETECT COLITION WITH SOME OBJECT
-	//----- HORIZONTAL
-	if(move_X != 0 ){
-		if(place_meeting(x+move_X,y,obj_interactuable)){
-			repeat(abs(move_X)){
-				if(!place_meeting(x+sign(move_X),y,obj_interactuable)){ x += sign(move_X) }
-				else
-				{
-					break;	
-				}
-			}
-			move_X = 0;
-		}
-	}
-
-	//----- VERTICAL
-	if(move_Y != 0 ){
-		if(place_meeting(x,y+move_Y,obj_interactuable)){
-			repeat(abs(move_Y)){
-				if(!place_meeting(x,y+sign(move_Y),obj_interactuable)){ y += sign(move_Y) }
-				else{	break;	}
-			}
-			
-			//FLAG SCREENSHAKE
-			//camara.screenshake = true;
-			camara.magnitude = progressiveFall / 10; 
-			
-			//FLAG ANIMATION SQUASH
-			doSquash = 0;		
-			alarm[0] = -4;
-			
-			progressiveFall = 1;
-			freeFall = false;
-			move_Y = 0;
-			spd = runSpeed;
-			
-			
-		}
-		
-	}
+scr_colitionSystem();
 	//--------------------MODIFY THE PLAYER POSITION TO MAKE MOVEMENT EFFECTIVE
 
 	x += move_X;
