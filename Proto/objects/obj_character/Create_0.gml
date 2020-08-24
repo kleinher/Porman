@@ -7,12 +7,17 @@ propulsionSpeed = 1;
 freeFall = true;
 spd = 5;
 
-// MOVEMENT SPEED
-runSpeed = 5;
+// MOVEMENT SPEED PLAYER
+runSpeed = 13;
 hSpeed = 3;
 
 
 canJump = 0;
 jSpeed = 10;
 state = scr_movement;
+
+
+
+//FOR ENEMYS
+enemyDirection = 1;
 

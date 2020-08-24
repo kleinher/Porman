@@ -12,7 +12,11 @@ function scr_colitionSystem(){
 					break;	
 				}
 			}
-			move_X = 0;
+			if(object_index = player){
+				move_X=0;	
+			}
+			
+			enemyDirection *= -1;
 		}
 	}
 

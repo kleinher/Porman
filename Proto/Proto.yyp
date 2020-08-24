@@ -5,7 +5,7 @@
     {"id":{"name":"spr_playerRun","path":"sprites/spr_playerRun/spr_playerRun.yy",},"order":3,},
     {"id":{"name":"obj_interactuable","path":"objects/obj_interactuable/obj_interactuable.yy",},"order":1,},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":15,},
-    {"id":{"name":"scr_","path":"scripts/scr_/scr_.yy",},"order":9,},
+    {"id":{"name":"scr_enemyMovement","path":"scripts/scr_enemyMovement/scr_enemyMovement.yy",},"order":9,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":0,},
     {"id":{"name":"scr_movement","path":"scripts/scr_movement/scr_movement.yy",},"order":1,},
@@ -27,6 +27,7 @@
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},"order":0,},
     {"id":{"name":"scr_colitionSystem","path":"scripts/scr_colitionSystem/scr_colitionSystem.yy",},"order":0,},
     {"id":{"name":"obj_player_displayer","path":"objects/obj_player_displayer/obj_player_displayer.yy",},"order":1,},
+    {"id":{"name":"Object11","path":"objects/Object11/Object11.yy",},"order":16,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
