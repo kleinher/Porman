@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c9b59bf7-cb8c-4796-a5f5-5935033fd29b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "grp_Gun",
+    "path": "folders/Sprites/grp_Gun.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gun",

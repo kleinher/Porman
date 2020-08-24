@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5534fd87-2cfb-46ac-8e7b-de3518e40ea2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "grp_Room",
+    "path": "folders/Sprites/grp_Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_solid",
