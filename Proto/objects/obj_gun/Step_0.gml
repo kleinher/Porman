@@ -8,6 +8,10 @@ if(instance_exists(player)){
 		x= player.x+7*2;
 		y= player.y-11*2;
 	}
+	if(obj_player_displayer.running){
+		x= player.x;
+		y= player.y-player.sprite_height/2;;
+	}
 	
 }
 if(!player.move_up){

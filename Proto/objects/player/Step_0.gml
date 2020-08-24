@@ -2,7 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 depth = -1;
-scr_visualPlayer();
+
 
 //ANIMATIONS
 
@@ -57,4 +57,5 @@ if doSquash == 1 {
 	}
 
 }
+scr_visualPlayer();
 

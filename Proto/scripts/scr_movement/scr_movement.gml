@@ -90,7 +90,7 @@ if(canJump > 0 ){
 			progressiveFall = 1;
 			freeFall = false;
 			move_Y = 0;
-			spd = 13;
+			spd = runSpeed;
 			
 			
 		}

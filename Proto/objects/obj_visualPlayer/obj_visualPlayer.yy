@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Character",
+    "path": "folders/Objects/Character.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_visualPlayer",

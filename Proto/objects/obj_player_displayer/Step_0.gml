@@ -1,22 +1,20 @@
 x = player.x;
 y = player.y;
-scr_playerSpriteIdle();
-scr_playerSpriteRun();
 
-if(player.spd == 13 and player.move_right){
-		sprite_index = spr_playerRun;
-		if(image_xscale > 0){
-				image_xscale = image_xscale * -1;	
-		}
+if(player.spd == player.runSpeed and player.move_right){
+		scr_playerSpriteRun("right");
+		running = true;
 	}
 	else{
-		if(player.move_left and player.spd == 13){
-			sprite_index = spr_playerRun;
-			if(image_xscale < 0){
-				image_xscale = image_xscale * -1;	
-			}
+		if(player.move_left and player.spd == player.runSpeed){
+			running = true;
+			scr_playerSpriteRun("left");
 		}
 		else{
+			running = false;
+			if(!player.move_right and !player.move_left){
+				sprite_index = spr_player;	
+			}
 			if(alarm[0] < 0) {
 				sprite_index = spr_blink;	
 				image_index = 0;
@@ -28,5 +26,5 @@ if(player.spd == 13 and player.move_right){
 				sprite_index = spr_player;
 			}
 		}	
-}
 		
+	}	
