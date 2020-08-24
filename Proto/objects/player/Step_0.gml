@@ -57,5 +57,6 @@ if doSquash == 1 {
 	}
 
 }
+move_wrap(true, true, sprite_get_width(player)/2);
 scr_visualPlayer();
 
