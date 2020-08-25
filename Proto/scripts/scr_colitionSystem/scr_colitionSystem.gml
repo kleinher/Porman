@@ -47,8 +47,12 @@ function scr_colitionSystem(){
 			freeFall = false;
 			move_Y = 0;
 			spd = runSpeed;
+	
+		}
+		else{
 			
-			
+			//ENEMY JUMP FLAG
+			scr_enemyJump();
 		}
 		
 	}

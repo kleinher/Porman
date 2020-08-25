@@ -21,7 +21,7 @@ function scr_movement(){
 
 if((move_up)){
 	
-	scr_createDebri(5);
+	scr_createDebri(5,speed);
 	spd = 3;
 	obj_gun.image_angle = -90;
 	obj_gun.direction =  -90;	
