@@ -3,6 +3,6 @@
 function scr_createDebri(){
 	repeat(5){
 		x_random = irandom_range(-sprite_get_width(player),sprite_get_width(player));
-		instance_create_layer(x+x_random,y,"Instances",obj_debri);	
+		instance_create_layer(obj_gun.x+x_random,obj_gun.y+ obj_gun.sprite_height,"Instances",obj_debri);	
 	}
 }
