@@ -15,8 +15,8 @@ function scr_colitionSystem(){
 			if(object_index = player){
 				move_X=0;	
 			}
+				enemyDirection *= -1;	
 			
-			enemyDirection *= -1;
 		}
 	}
 

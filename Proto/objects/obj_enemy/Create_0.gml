@@ -4,10 +4,8 @@ event_inherited();
 state = scr_enemyMovement;
 progressiveFall = 1;
 hSpeed = 0;
-vSpeed = 0;
-dir = -1;
 moveSpeed = 5;
-
+aux = 0;
 
 freeFall = true;
 fall_speed = 2;
