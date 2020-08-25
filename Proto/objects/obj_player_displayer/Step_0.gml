@@ -1,12 +1,12 @@
 x = player.x;
 y = player.y;
 
-if(player.spd == player.runSpeed and player.move_right){
+if(player.spd == player.runSpeed and player.move_right and player.doRun){
 		scr_playerSpriteRun("right");
 		running = true;
 	}
 	else{
-		if(player.move_left and player.spd == player.runSpeed){
+		if(player.move_left and player.spd == player.runSpeed and player.doRun){
 			running = true;
 			scr_playerSpriteRun("left");
 		}

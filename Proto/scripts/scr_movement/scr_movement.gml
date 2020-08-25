@@ -39,10 +39,7 @@ if((move_up)){
 	}
 	
 	// SHOOTING BULLETS
-	if(mouse_check_button_pressed(mb_left)){
-		var inst = instance_create_layer(x,y,"Bullets", obj_bullet);
-		inst.direction = point_direction(x,y,mouse_x,mouse_y);
-	}
+	scr_shootBullet();
 	
 	//-----------GRAVITY
 	scr_gravity();

@@ -108,8 +108,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f09cbe7d-ad5a-4ff4-8e4c-6a0ecd916850","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Proto",
-    "path": "Proto.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemy",

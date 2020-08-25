@@ -32,6 +32,14 @@ function scr_colitionSystem(){
 			//camara.screenshake = true;
 			camara.magnitude = progressiveFall / 10; 
 			
+			//FLAG RUN
+			if(move_Y < 0)
+			{
+				doRun = false;
+			}else{
+				doRun = true;	
+			}
+			
 			//FLAG ANIMATION SQUASH
 			doSquash = 0;		
 			alarm[0] = -4;
