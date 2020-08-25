@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bala",
-    "path": "sprites/spr_bala/spr_bala.yy",
+    "name": "spr_debri",
+    "path": "sprites/spr_debri/spr_debri.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_debri","path":"objects/obj_debri/obj_debri.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_debri","path":"objects/obj_debri/obj_debri.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Gun things",
-    "path": "folders/Objects/Character/Gun things.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bullet",
+  "name": "obj_debri",
   "tags": [],
   "resourceType": "GMObject",
 }
