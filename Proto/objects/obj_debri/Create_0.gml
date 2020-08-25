@@ -1,4 +1,5 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-direction = irandom_range(-45,-135);
+dir_variation = 10;
+direction = irandom_range(obj_gun.direction - dir_variation, obj_gun.direction + dir_variation);
 speed = 10;

@@ -3,15 +3,12 @@ y = player.y;
 
 if(player.spd == player.runSpeed and player.move_right and player.doRun){
 		scr_playerSpriteRun("right");
-		running = true;
 	}
 	else{
 		if(player.move_left and player.spd == player.runSpeed and player.doRun){
-			running = true;
 			scr_playerSpriteRun("left");
 		}
 		else{
-			running = false;
 			if(!player.move_right and !player.move_left){
 				sprite_index = spr_player;	
 			}

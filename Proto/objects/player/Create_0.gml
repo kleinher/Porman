@@ -18,3 +18,5 @@ hSpeed = 3;
 
 
 doRun = false;
+
+charginGun = 0;

@@ -21,9 +21,10 @@ function scr_movement(){
 
 if((move_up)){
 	
-	scr_createDebri();
+	scr_createDebri(5);
 	spd = 3;
 	obj_gun.image_angle = -90;
+	obj_gun.direction =  -90;	
 	if(propulsionSpeed < 20){
 		propulsionSpeed += 0.1;
 	}
