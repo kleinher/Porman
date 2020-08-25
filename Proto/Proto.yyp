@@ -7,6 +7,7 @@
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":6,},
     {"id":{"name":"scr_enemyMovement","path":"scripts/scr_enemyMovement/scr_enemyMovement.yy",},"order":9,},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"order":19,},
+    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":21,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"spr_proyectil","path":"sprites/spr_proyectil/spr_proyectil.yy",},"order":7,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":0,},

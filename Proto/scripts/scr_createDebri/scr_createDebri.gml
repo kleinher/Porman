@@ -2,9 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_createDebri(debriAmount){
 	repeat(debriAmount){
-		x_random = irandom_range(-sprite_get_width(obj_gun)/4,sprite_get_width(obj_gun)/4);
-		y_random = irandom_range(sprite_get_height(obj_gun)*1.3,sprite_get_height(obj_gun)*1.5);
-		inst = instance_create_layer(obj_gun.x+x_random,obj_gun.y+y_random,"Instances",obj_debri);	
+		x_random = irandom_range(obj_gun.x-5,obj_gun.x+5);
+		y_random = irandom_range(obj_gun.y-5,obj_gun.y+20);
+		inst = instance_create_layer(x_random,y_random+40,"Instances",obj_debri);	
 		inst.speed = speed;
 	}
 }
