@@ -8,6 +8,7 @@
     {"id":{"name":"scr_enemyMovement","path":"scripts/scr_enemyMovement/scr_enemyMovement.yy",},"order":9,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":0,},
+    {"id":{"name":"spr_fall","path":"sprites/spr_fall/spr_fall.yy",},"order":4,},
     {"id":{"name":"scr_movement","path":"scripts/scr_movement/scr_movement.yy",},"order":3,},
     {"id":{"name":"spr_bala","path":"sprites/spr_bala/spr_bala.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
