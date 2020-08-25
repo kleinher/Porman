@@ -7,9 +7,7 @@ propulsionSpeed = 1;
 freeFall = true;
 spd = 5;
 
-// MOVEMENT SPEED PLAYER
-runSpeed = 13;
-hSpeed = 3;
+
 
 
 canJump = 0;

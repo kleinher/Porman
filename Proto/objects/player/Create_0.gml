@@ -11,3 +11,7 @@ alarm[0] = -4;
 
 //CREATE THE OBJECT THAT WILL DISPLAY MY SPRITES
 instance_create_depth(x, y, depth, obj_player_displayer);
+
+// MOVEMENT SPEED PLAYER
+runSpeed = 5;
+hSpeed = 3;
