@@ -15,6 +15,7 @@
     {"id":{"name":"scr_gravity","path":"scripts/scr_gravity/scr_gravity.yy",},"order":0,},
     {"id":{"name":"spr_enemies","path":"sprites/spr_enemies/spr_enemies.yy",},"order":3,},
     {"id":{"name":"obj_gun","path":"objects/obj_gun/obj_gun.yy",},"order":2,},
+    {"id":{"name":"background","path":"sprites/background/background.yy",},"order":4,},
     {"id":{"name":"obj_visualPlayer","path":"objects/obj_visualPlayer/obj_visualPlayer.yy",},"order":2,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":1,},
     {"id":{"name":"spr_player_collisioner","path":"sprites/spr_player_collisioner/spr_player_collisioner.yy",},"order":2,},
