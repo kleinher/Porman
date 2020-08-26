@@ -53,8 +53,9 @@ menu_pages = [ds_menu_main, ds_menu_settings, ds_menu_audio, ds_menu_difficulty,
 
 var i = 0;
 var array_len = array_length_1d(menu_pages);
-show_debug_message(array_len);
 repeat(array_len){
 	menu_option[i] = 0;
 	i++;
 }
+
+inputting = false;
