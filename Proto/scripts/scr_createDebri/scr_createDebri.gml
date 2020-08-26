@@ -3,7 +3,12 @@
 function scr_createDebri(debriAmount,_speed){
 	repeat(debriAmount){
 		angle = point_direction(x,y,mouse_x,mouse_y);
-		scr_subPlano(angle);
+		x_plano=1;
+		y_plano=1;
+		//GET THE CUADRANT OF THE CURSOR
+		scr_cartesianCuadrant(angle);
+		
+		
 		x_random = irandom_range(obj_gun.x-5*x_plano,obj_gun.x+5*x_plano);
 		y_random = irandom_range(obj_gun.y-5*y_plano,obj_gun.y+20*y_plano);
 		inst = instance_create_layer(x_random,y_random,"Instances",obj_debri);	
