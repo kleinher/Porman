@@ -3,7 +3,7 @@
 // PLAIN IN WICH THE ARGUMENT ANGLE LAYS
 //
 */
-function scr_subPlano(angle){
+function scr_cartesianCuadrant(angle){
 	// QUADRANT IV
 	if((0 < angle and angle < -90) or (270 < angle and angle < 360 )){
 			x_plano = 1;

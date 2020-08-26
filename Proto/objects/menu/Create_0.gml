@@ -19,7 +19,6 @@ enum menu_element_type{
 	slider,
 	shift,
 	toggle,
-	height
 };
 
 ds_menu_main = create_menu_page(
@@ -29,7 +28,7 @@ ds_menu_main = create_menu_page(
 );
 ds_menu_settings = create_menu_page(
 	["AUDIO",		menu_element_type.page_transfer,	menu_page.audio],
-	["DIFFICULTY",	menu_element_type.page_transfer,	menu_page.settings],
+	["DIFFICULTY",	menu_element_type.page_transfer,	menu_page.difficulty],
 	["GRAPHICS",	menu_element_type.page_transfer,	menu_page.graphics],
 	["BACK",		menu_element_type.page_transfer,	menu_page.main],
 );
@@ -45,14 +44,16 @@ ds_menu_difficulty = create_menu_page(
 );
 ds_menu_graphics = create_menu_page(
 	["RESOLUTION",	menu_element_type.shift,		change_resolution, 0 , ["384 x 216","768 x 432","1152 x 648", "1536 x 874", "1920 x 1080"]],
-	["WINDOW MODE",	menu_element_type.toggle,		change_window_mode, 1, ["FULLSCREEN","WINDOWED"]],
+	["FULLSCREEN",	menu_element_type.toggle,		change_window_mode, 1, ["ON","OFF"]],
 	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
 );
 
 page= 0;
 menu_pages = [ds_menu_main, ds_menu_settings, ds_menu_audio, ds_menu_difficulty, ds_menu_graphics];
 
-var i = 0, array_len = array_length_1d(menu_pages);
+var i = 0;
+var array_len = array_length_1d(menu_pages);
+show_debug_message(array_len);
 repeat(array_len){
 	menu_option[i] = 0;
 	i++;

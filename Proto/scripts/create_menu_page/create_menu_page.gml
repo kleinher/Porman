@@ -1,7 +1,8 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
 function create_menu_page(){
+	
 	var arg,i = 0;
+
 	repeat(argument_count){
 		arg[i]=argument[i];
 		i++;
@@ -20,4 +21,5 @@ function create_menu_page(){
 		
 		i++;
 	}
+	return ds_grid_id;
 }
