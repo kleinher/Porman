@@ -2,7 +2,6 @@ x = player.x;
 y = player.y;
 
 if(player.doRun){
-	show_debug_message("Corre");
 	if(player.move_right){
 		scr_playerSpriteRun("right");
 	}
@@ -11,7 +10,7 @@ if(player.doRun){
 	}
 }
 else{
-	show_debug_message("no corre");
+	
 	sprite_index = spr_player;	
 	if(alarm[0] < 0) {
 		sprite_index = spr_blink;	
@@ -23,5 +22,5 @@ else{
 	if(sprite_index == spr_blink and image_index > image_number-1){
 		sprite_index = spr_player;
 	}
-	
+	scr_visualPlayer();
 }	

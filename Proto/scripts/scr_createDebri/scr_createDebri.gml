@@ -10,7 +10,7 @@ function scr_createDebri(debriAmount,_speed){
 		
 		
 		x_random = irandom_range(obj_gun.x-5*x_plano,obj_gun.x+5*x_plano);
-		y_random = irandom_range(obj_gun.y-5*y_plano,obj_gun.y+20*y_plano);
+		y_random = irandom_range(obj_gun.y+35,obj_gun.y+40);
 		inst = instance_create_layer(x_random,y_random,"Instances",obj_debri);	
 		inst.speed = _speed;
 		inst.direction = irandom_range(angle -20 , angle +20);

@@ -2,18 +2,25 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_visualPlayer(){
 	
-	if player.doSquash == -1 
-	{
 	
-		if(player.x > mouse_x){
+		if(player.x > mouse_x and image_xscale > 0){
 			obj_gun.rotated = true;
 			image_xscale *= -1;	
 //			image_yscale = 2;
 		}else{
-			obj_gun.rotated = false;
-			//image_xscale = 2;
-			//image_yscale = 2;
+			if(image_xscale < 0 and player.x < mouse_x){
+				image_xscale *= -1;		
+				
+				obj_gun.rotated = false;
+			}
+			if(player.doRun){
+				obj_gun.rotated = false;
+					
+			}
+			
+			
+			
 		}	
-	}
+
 	
 }

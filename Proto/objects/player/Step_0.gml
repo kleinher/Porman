@@ -10,6 +10,7 @@ depth = -1;
 var d = obj_player_displayer;
 
 //AS SOON AS WE START DOING THE JUMP, DEACTIVATE SQUASH AND DO STRETCH
+/*
 if move_up {
 
 	doSquash = -1;
@@ -52,13 +53,15 @@ if doSquash == 1 {
 		
 		//RESET VARS
 		d.image_xscale = 2;
+		d.image_yscale = 2;
 		doSquash = -1;
 		alarm[0] = -4;
 	
 	}
 
 }
+*/
 move_wrap(true, true, sprite_get_width(player)/2);
-scr_visualPlayer();
+
 
 
