@@ -7,6 +7,7 @@ function scr_enemyMovement(){
 	y += move_Y;
 	scr_gravity();
 	scr_colitionSystem();
+	
 	if(canJump > 0 ){ 
 
 		canJump--;

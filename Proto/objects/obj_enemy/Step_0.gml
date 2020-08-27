@@ -17,7 +17,3 @@ if(aux != enemyDirection){
 
 	image_xscale *= enemyDirection;
 }
-if(place_meeting(x,y,obj_bulletBehavior)){
-	instance_destroy();
-	score += 100;
-}
