@@ -25,13 +25,12 @@ if(inputting){
 				case 1: if(!audio_is_playing(snd_blink)) { audio_play_sound(snd_blink,1,false);} break;
 				case 2: if(!audio_is_playing(snd_musica)) { audio_play_sound(snd_musica,1,false);} break;
 				
-				
 			}
 			var hinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 			if( hinput != 0 ){
 				//dont put audio
 				ds_grid[# 3, menu_option[page]]	+= hinput*0.01;
-				ds_grid[# 3, menu_option[page]]	= clamp(ds_grid[# 3, menu_option[page]],0, 1);
+				ds_grid[# 3, menu_option[page]]	= clamp(ds_grid[# 3, menu_option[page]],0, 0.5);
 				script_execute(ds_grid[# 2, menu_option[page]],ds_grid[# 3, menu_option[page]]);
 			}
 		break;

@@ -33,9 +33,9 @@ ds_menu_settings = create_menu_page(
 	["BACK",		menu_element_type.page_transfer,	menu_page.main],
 );
 ds_menu_audio = create_menu_page(
-	["MASTER",	menu_element_type.slider,		change_volume	,1	,	[0,1]],
-	["SOUND",	menu_element_type.slider,		change_volume	,1	,	[0,1]],
-	["MUSIC",	menu_element_type.slider,		change_volume	,1	,	[0,1]],
+	["MASTER",	menu_element_type.slider,		change_volume	,0.5	,	[0,0.5]],
+	["SOUND",	menu_element_type.slider,		change_volume	,0.5	,	[0,0.5]],
+	["MUSIC",	menu_element_type.slider,		change_volume	,0.5	,	[0,0.5]],
 	["BACK",	menu_element_type.page_transfer, menu_page.settings],
 );
 ds_menu_difficulty = create_menu_page(

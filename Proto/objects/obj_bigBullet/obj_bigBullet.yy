@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_bulletBehavior",
+    "path": "objects/obj_bulletBehavior/obj_bulletBehavior.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
