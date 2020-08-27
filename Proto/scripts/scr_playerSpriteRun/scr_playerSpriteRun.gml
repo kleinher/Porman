@@ -5,12 +5,19 @@ function scr_playerSpriteRun(_direction){
 	if(image_xscale < 0){
 		if(_direction == "left"){
 			image_xscale = image_xscale * -1;	
+		}else{
+			image_xscale = image_xscale * 1;
+			
 		}
 	}else
 	{
 		if(_direction == "right"){
 			image_xscale = image_xscale * -1;
+		}else
+		{
+			image_xscale = image_xscale * 1;
 		}
+		
 		
 	}
 	

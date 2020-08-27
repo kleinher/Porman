@@ -16,29 +16,24 @@ function scr_colitionSystem(){
 				move_X=0;	
 			}
 				enemyDirection *= -1;	
-			
+				
 		}
 	}
 
 	//----- VERTICAL
 	if(move_Y != 0 ){
 		if(place_meeting(x,y+move_Y,obj_interactuable)){
+			
 			repeat(abs(move_Y)){
 				if(!place_meeting(x,y+sign(move_Y),obj_interactuable)){ y += sign(move_Y) }
 				else{	break;	}
 			}
-			
+
 			//FLAG SCREENSHAKE
 			//camara.screenshake = true;
 			camara.magnitude = progressiveFall / 10; 
 			
-			//FLAG RUN
-			if(move_Y < 0)
-			{
-				doRun = false;
-			}else{
-				doRun = true;	
-			}
+			
 			
 			//FLAG ANIMATION SQUASH
 			doSquash = 0;		
@@ -50,7 +45,7 @@ function scr_colitionSystem(){
 	
 		}
 		else{
-			
+			doRun= false;
 			//ENEMY JUMP FLAG
 			scr_enemyJump();
 		}

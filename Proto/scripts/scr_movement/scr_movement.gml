@@ -16,7 +16,13 @@ function scr_movement(){
 	k = (move_down - move_up) ;
 	move_X = (move_right - move_left) * spd;
 	
-
+if( abs(move_left - move_right)){
+	
+	doRun = true;
+}else{
+	doRun = false;	
+	
+}
 
 
 if((move_up)){

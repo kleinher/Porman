@@ -51,6 +51,7 @@
     {"id":{"name":"spr_blink","path":"sprites/spr_blink/spr_blink.yy",},"order":0,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":4,},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},"order":0,},
+    {"id":{"name":"spr_dementor","path":"sprites/spr_dementor/spr_dementor.yy",},"order":9,},
     {"id":{"name":"scr_colitionSystem","path":"scripts/scr_colitionSystem/scr_colitionSystem.yy",},"order":0,},
     {"id":{"name":"obj_player_displayer","path":"objects/obj_player_displayer/obj_player_displayer.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

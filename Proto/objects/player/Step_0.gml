@@ -33,7 +33,8 @@ if doSquash == 0 {
 		d.image_yscale = lerp(d.image_yscale, 1.5, 0.2) 
 	
 	} else {
-		
+		d.image_xscale = 2;
+		d.image_yscale = 2;
 		doSquash = 1;
 	}
 
