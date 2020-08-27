@@ -45,6 +45,10 @@ function scr_colitionSystem(){
 	
 		}
 		else{
+			//FALL SPRITE
+			if(move_Y < 0){freeFall = false;}
+			else{freeFall = true;}
+
 			doRun= false;
 			//ENEMY JUMP FLAG
 			scr_enemyJump();

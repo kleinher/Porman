@@ -2,7 +2,12 @@
 // Puede escribir su código en este editor
 with(other)
 {
-	instance_destroy();
+	life -= 50;
+	if(life <= 0){
+		instance_destroy();
+		score += 100;
+	}
+	
 }
-	score += 100;
+	
 instance_destroy();	

@@ -7,7 +7,7 @@ progressiveFall = 1;
 propulsionSpeed = 1;
 freeFall = true;
 spd = 5;
-
+life = 100;
 
 
 

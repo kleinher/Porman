@@ -5,7 +5,7 @@ function scr_enemyJump(){
 
 	if( move_X != 0){
 		if( colisionAnterior){
-			canJump = 10;
+			canJump = 4;
 		}
 		
 	}

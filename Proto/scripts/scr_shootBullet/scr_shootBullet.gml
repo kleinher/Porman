@@ -9,6 +9,7 @@ function scr_shootBullet(){
 		charginGun = 0;
 		var inst = instance_create_layer(obj_gun.x_gun,obj_gun.y_gun,"Bullets", obj_bullet);
 		inst.direction = point_direction(x,y,mouse_x,mouse_y);
+		scr_createDebri(10,obj_bullet.speed);
 	}else{
 		
 		//CHARGE THE BIG BULLET
