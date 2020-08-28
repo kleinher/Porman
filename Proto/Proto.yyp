@@ -22,6 +22,7 @@
     {"id":{"name":"menu","path":"objects/menu/menu.yy",},"order":3,},
     {"id":{"name":"scr_movement","path":"scripts/scr_movement/scr_movement.yy",},"order":3,},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":15,},
+    {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},"order":16,},
     {"id":{"name":"spr_bala","path":"sprites/spr_bala/spr_bala.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"spr_bigCake","path":"sprites/spr_bigCake/spr_bigCake.yy",},"order":10,},
