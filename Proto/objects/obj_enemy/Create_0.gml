@@ -7,7 +7,6 @@ image_yscale = 2;
 state = scr_enemyMovement;
 progressiveFall = 1;
 hSpeed = 0;
-
 aux = 0;
 
 freeFall = true;
@@ -17,5 +16,6 @@ runSpeed = 5;
 progressiveFall = 1;
 life = 100;
 
+colorEnemigo = image_blend;
 
-
+hitFeedback = 6;

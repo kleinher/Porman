@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Gun things",
-    "path": "folders/Objects/Character/Gun things.yy",
+    "path": "folders/Extensions/Objects/Character/Gun things.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_gun",

@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 fall_speed = 2;
+runSpeed= 5;
 move_Y = 0;
-move_X = 5;
+move_X = runSpeed;
 progressiveFall = 1;
 propulsionSpeed = 1;
 freeFall = true;

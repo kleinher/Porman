@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Player",
-    "path": "folders/Objects/Character/Player.yy",
+    "path": "folders/Extensions/Objects/Character/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "player",

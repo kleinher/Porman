@@ -18,3 +18,14 @@ else
 	script_execute(state);
 }
 
+runSpeed = 6 - hitFeedback;
+image_speed = 1;
+image_blend = colorEnemigo;
+if(hitFeedback > 0)
+{
+	image_speed = 0.5;
+	rojo = irandom_range(0,255);
+
+	image_blend = make_color_rgb(rojo,5,10);
+	hitFeedback-= 0.3;	
+}

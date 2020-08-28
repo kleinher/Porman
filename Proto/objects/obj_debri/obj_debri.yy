@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Character",
-    "path": "folders/Objects/Character.yy",
+    "path": "folders/Extensions/Objects/Character.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_debri",

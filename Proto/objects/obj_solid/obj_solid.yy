@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Room Objects",
-    "path": "folders/Objects/Room Objects.yy",
+    "path": "folders/Extensions/Objects/Room Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_solid",
