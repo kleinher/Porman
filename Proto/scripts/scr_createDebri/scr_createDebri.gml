@@ -21,7 +21,6 @@ function scr_createDebri(debriAmount,_speed){
 			y_random = irandom_range(obj_gun.y-heigth_gun*sin(degtorad(angle)),obj_gun.y-heigth_gun*sin(degtorad(angle)));
 		}
 		
-		
 		//CREATION OF DEBRI ITSELF
 		inst = instance_create_layer(x_random,y_random,"Instances",obj_debri);	
 		

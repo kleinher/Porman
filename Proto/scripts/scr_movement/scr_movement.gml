@@ -17,8 +17,9 @@ function scr_movement(){
 	move_X = (move_right - move_left) * spd;
 	
 if( abs(move_left - move_right)){
-	
-	doRun = true;
+	if(!move_up){
+		doRun = true;
+	}
 }else{
 	doRun = false;	
 	
