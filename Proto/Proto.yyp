@@ -63,6 +63,7 @@
     {"id":{"name":"camara","path":"objects/camara/camara.yy",},"order":0,},
     {"id":{"name":"scr_playerSpriteIdle","path":"scripts/scr_playerSpriteIdle/scr_playerSpriteIdle.yy",},"order":0,},
     {"id":{"name":"spr_blink","path":"sprites/spr_blink/spr_blink.yy",},"order":0,},
+    {"id":{"name":"Object18","path":"objects/Object18/Object18.yy",},"order":17,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":4,},
     {"id":{"name":"spr_gun","path":"sprites/spr_gun/spr_gun.yy",},"order":0,},
     {"id":{"name":"spr_dementor","path":"sprites/spr_dementor/spr_dementor.yy",},"order":9,},

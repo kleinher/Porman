@@ -12,7 +12,7 @@ function scr_colitionSystem(){
 					break;	
 				}
 			}
-			if(object_index = player){
+			if(object_index == player){
 				move_X=0;	
 			}
 				enemyDirection *= -1;	

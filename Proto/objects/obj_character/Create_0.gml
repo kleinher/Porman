@@ -9,7 +9,7 @@ propulsionSpeed = 1;
 freeFall = true;
 spd = 5;
 life = 100;
-
+enemyDirection = 1;
 
 
 canJump = 0;
