@@ -7,9 +7,10 @@ function scr_shootBullet(){
 	//SHOOT THE LITTLE BULLET
 	if(mouse_left and !chargeBigBullet){
 		charginGun = 0;
-		var inst = instance_create_layer(obj_gun.x_gun,obj_gun.y_gun,"Bullets", obj_bullet);
-		inst.direction = point_direction(x,y,mouse_x,mouse_y);
-		scr_createDebri(10,obj_bullet.speed);
+		//var inst = instance_create_layer(obj_gun.x_gun,obj_gun.y_gun,"Bullets", obj_bullet);
+		//inst.direction = point_direction(x,y,mouse_x,mouse_y);
+		
+		scr_createDebri(200,10);
 	}else{
 		
 		//CHARGE THE BIG BULLET
@@ -20,7 +21,11 @@ function scr_shootBullet(){
 			if(charginGun > 30){
 				charginGun = 0;
 				var inst = instance_create_layer(obj_gun.x_gun,obj_gun.y_gun,"Bullets", obj_bigBullet);
-				inst.direction = point_direction(x,y,mouse_x,mouse_y);	
+				
+				//
+				if(!player.move_up){inst.direction = point_direction(x,y,mouse_x,mouse_y); }
+			
+				
 				//DEBRI
 				scr_createDebri(50,obj_bigBullet.speed);
 			}

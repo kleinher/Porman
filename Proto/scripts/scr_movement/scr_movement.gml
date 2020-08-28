@@ -27,7 +27,7 @@ if( abs(move_left - move_right)){
 
 if((move_up)){
 	
-	scr_createDebri(5,speed);
+	scr_createDebri(5,1);
 	spd = 3;
 	obj_gun.image_angle = -90;
 	obj_gun.direction =  -90;	
