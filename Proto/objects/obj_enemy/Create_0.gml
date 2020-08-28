@@ -19,3 +19,4 @@ life = 100;
 colorEnemigo = image_blend;
 
 hitFeedback = 6;
+dir = 1;

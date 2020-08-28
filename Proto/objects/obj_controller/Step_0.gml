@@ -13,6 +13,7 @@ if(key_scape){
 	{
 		instance_destroy(id_menu);
 		obj_character.state = scr_movement;
+		obj_enemy.state = scr_movement;
 	}
 }
 
