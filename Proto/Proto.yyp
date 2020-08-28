@@ -22,6 +22,7 @@
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"order":15,},
     {"id":{"name":"spr_bala","path":"sprites/spr_bala/spr_bala.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
+    {"id":{"name":"spr_bigCake","path":"sprites/spr_bigCake/spr_bigCake.yy",},"order":10,},
     {"id":{"name":"scr_createDebri","path":"scripts/scr_createDebri/scr_createDebri.yy",},"order":4,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":3,},
     {"id":{"name":"spr_debri","path":"sprites/spr_debri/spr_debri.yy",},"order":5,},

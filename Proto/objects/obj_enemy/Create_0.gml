@@ -2,7 +2,8 @@
 // Puede escribir su código en este editor
 event_inherited();
 
-
+image_xscale = 2;
+image_yscale = 2;
 state = scr_enemyMovement;
 progressiveFall = 1;
 hSpeed = 0;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy",
-    "path": "sprites/spr_enemy/spr_enemy.yy",
+    "name": "spr_bigCake",
+    "path": "sprites/spr_bigCake/spr_bigCake.yy",
   },
   "solid": false,
   "visible": true,
