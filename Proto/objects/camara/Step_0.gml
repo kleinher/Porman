@@ -37,3 +37,12 @@ if(object_exists(player)) and !screenshake{
 	x=lerp(x,player.x, amount);
 	y=lerp(y,player.y, amount);
 }
+
+//PARALAX
+
+
+if(layer_exists("Back_Trees")){ layer_x("Back_Trees",x/3);}
+if(layer_exists("Middle_Trees")){ layer_x("Middle_Trees",x/4);}
+if(layer_exists("Front_Trees")){ layer_x("Front_Trees",x/5);}
+		
+	
