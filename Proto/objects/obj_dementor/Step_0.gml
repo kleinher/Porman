@@ -7,7 +7,6 @@ move_Y = -1*sin(degtorad(dir))*spd;
 
 
 scr_colitionSystem();
-show_debug_message(move_X);
 x += move_X;
 y += move_Y;
 

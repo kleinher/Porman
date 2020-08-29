@@ -122,6 +122,7 @@
     {"folderPath":"folders/Scripts/grp_Menu.yy","order":12,"resourceVersion":"1.0","name":"grp_Menu","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions/Objects/Enemies.yy","order":13,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/grp_background.yy","order":13,"resourceVersion":"1.0","name":"grp_background","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Objects.yy","order":0,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

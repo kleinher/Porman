@@ -15,8 +15,7 @@ function scr_createDebri(debriAmount,_speed){
 		}else{
 			width_gun = obj_gun.sprite_width * obj_gun.image_xscale;
 			heigth_gun = obj_gun.sprite_height * obj_gun.image_yscale;
-			//show_debug_message("X = "+ string(heigth_gun*cos(angle)));
-			//show_debug_message("Y = "+ string(heigth_gun*sin(angle)));
+			
 			x_random = irandom_range(obj_gun.x+heigth_gun*cos(degtorad(angle)),obj_gun.x+heigth_gun*cos(degtorad(angle)));
 			y_random = irandom_range(obj_gun.y-heigth_gun*sin(degtorad(angle)),obj_gun.y-heigth_gun*sin(degtorad(angle)));
 		}

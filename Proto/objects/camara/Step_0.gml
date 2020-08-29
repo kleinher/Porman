@@ -1,3 +1,4 @@
+
 //SCREENSHAKE
 
 if screenshake {
@@ -40,9 +41,10 @@ if(object_exists(player)) and !screenshake{
 
 //PARALAX
 
+if(act_paralax != pas_paralax){  
 
-if(layer_exists("Back_Trees")){ layer_x("Back_Trees",x/3);}
-if(layer_exists("Middle_Trees")){ layer_x("Middle_Trees",x/4);}
-if(layer_exists("Front_Trees")){ layer_x("Front_Trees",x/5);}
-		
-	
+	if(layer_exists("Back_Trees")){ layer_x("Back_Trees",x/3);}
+	if(layer_exists("Middle_Trees")){ layer_x("Middle_Trees",x/4);}
+	if(layer_exists("Front_Trees")){ layer_x("Front_Trees",x/5);}
+
+}
