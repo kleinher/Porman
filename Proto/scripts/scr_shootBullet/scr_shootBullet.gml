@@ -11,6 +11,7 @@ function scr_shootBullet(){
 		//inst.direction = point_direction(x,y,mouse_x,mouse_y);
 		
 		scr_createDebri(200,10);
+		audio_play_sound(snd_smallShot,1,false);
 	}else{
 		
 		//CHARGE THE BIG BULLET
@@ -28,6 +29,7 @@ function scr_shootBullet(){
 				
 				//DEBRI
 				scr_createDebri(50,obj_bigBullet.speed);
+				audio_play_sound(snd_shoot,1,false);
 			}
 		}
 	}

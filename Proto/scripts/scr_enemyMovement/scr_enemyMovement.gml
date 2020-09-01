@@ -13,4 +13,5 @@ function scr_enemyMovement(){
 		canJump--;
 		move_Y = jSpeed*-1;
 	}
+	if(!audio_is_playing(snd_elastic)){audio_play_sound(snd_elastic,1,false);}
 }

@@ -29,6 +29,7 @@ if( abs(move_left - move_right)){
 if((move_up)){
 	
 	scr_createDebri(5,1);
+	if(!audio_is_playing(snd_propultion)){audio_play_sound(snd_propultion,1,false);}
 	spd = 3;
 	obj_gun.image_angle = -90;
 	obj_gun.direction =  -90;	
@@ -41,6 +42,7 @@ if((move_up)){
 		canJump += ln(propulsionSpeed);
 	}
 }else{
+	audio_stop_sound(snd_propultion);
 	if(canJump < 0){
 		canJump= 0;
 		progressiveFall = 1;

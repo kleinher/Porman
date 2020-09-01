@@ -20,5 +20,4 @@ if(key_scape){
 key_scape = keyboard_check_pressed(vk_escape)
 
 
-
-
+if(!audio_is_playing(snd_musica)){audio_play_sound(snd_musica,5,true);}

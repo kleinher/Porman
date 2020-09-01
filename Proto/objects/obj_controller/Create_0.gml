@@ -7,3 +7,4 @@ id_menu = 0;
 
 lives = 3;
 score = 0;
+
