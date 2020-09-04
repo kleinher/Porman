@@ -29,7 +29,7 @@ var yy = 0; repeat(ds_height){
 	draw_text_color(ltx+xo, lty, ds_grid[# 0, yy],c,c,c,c,1);
 	yy++;
 }
-
+draw_text_ext_transformed_color(start_x + (gwidth/4)+40, start_y - (gheight/4), "JUEGUITO",20,10,10,10,0,c_fuchsia,c_orange,c_fuchsia,c_orange,1);
 //Draw Dividing Line
 
 draw_line(start_x, start_y-y_buffer,start_x, lty+y_buffer);
@@ -51,11 +51,16 @@ yy = 0; repeat(ds_height){
 			c= c_white;
 			
 			if(current_val == 0) { left_shift = "";}
-			if(current_val == array_length_1d(ds_grid[# 4, yy])-1){ right_shift = ""; }
+			if(current_val >= (array_length_1d(ds_grid[# 4, yy])-1)){ right_shift = ""; }
 			
 			if(inputting and yy == menu_option[page]) { c = c_yellow; }
+			if(current_val != array_length_1d(ds_grid[# 4, yy])){
+				draw_text_color(rtx, rty, left_shift+current_array[current_val]+right_shift,c,c,c,c,1);
+			}
+			else{
+				draw_text_color(rtx, rty, left_shift+current_array[current_val-1]+right_shift,c,c,c,c,1);
 			
-			draw_text_color(rtx, rty, left_shift+current_array[current_val]+right_shift,c,c,c,c,1);
+			}
 			break;
 		case menu_element_type.slider:
 			var len = 64;
