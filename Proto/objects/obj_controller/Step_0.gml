@@ -8,12 +8,14 @@ if(key_scape){
 	{
 		id_menu = instance_create_depth(0,0,-1,menu);	
 		obj_character.state = scr_pause;
+		obj_dementor.state = scr_pause;
 	}
 	else
 	{
 		instance_destroy(id_menu);
 		obj_character.state = scr_movement;
 		obj_enemy.state = scr_movement;
+		obj_dementor.state = scr_movement;
 	}
 }
 

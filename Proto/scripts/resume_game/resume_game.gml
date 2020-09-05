@@ -3,5 +3,5 @@
 function resume_game(){
 	obj_controller.pause = true;
 	obj_controller.key_scape = true;
-	game_restart();
+
 }
