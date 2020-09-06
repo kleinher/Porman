@@ -2,9 +2,10 @@
 // You can write your code in this editor
 with(other){
 	
-	life -= 0.01;	
+	life -= 1;	
 	if(life < 0){
 		instance_destroy();	
+		score +=10;
 	}
 	hitFeedback = 5;
 	

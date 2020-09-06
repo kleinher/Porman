@@ -2,5 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_dead(){
 	obj_player_displayer.dead = true;
+	score = 0;
 	room_restart();
 }

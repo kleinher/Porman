@@ -13,8 +13,8 @@ alarm[0] = -4;
 instance_create_depth(x, y, depth, obj_player_displayer);
 
 // MOVEMENT SPEED PLAYER
-runSpeed = 8;
-hSpeed = 3;
+runSpeed = 13;
+hSpeed = 5;
 
 
 doRun = false;
