@@ -22,5 +22,6 @@ function scr_visualPlayer(){
 			
 		}	
 
-	
+
+
 }

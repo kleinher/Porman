@@ -42,10 +42,20 @@ if(object_exists(player)) and !screenshake{
 //PARALAX
 
 if(act_paralax != pas_paralax){  
-
+	
+	cloudMov++;
+	if(layer_exists("Clouds")){ layer_x("Clouds",x + cloudMov);}
+	//if(layer_exists("Clouds")){layer_y("Clouds",y/1);}
 	if(layer_exists("Back_Trees")){ layer_x("Back_Trees",x/1.5);}
 	if(layer_exists("Middle_Trees")){ layer_x("Middle_Trees",x/3);}
 	if(layer_exists("Front_Trees")){ layer_x("Front_Trees",x/5);}
 	//if(layer_exists("Front_front_trees")){ layer_x("Front_front_trees",x/18);}
 
 }
+
+//GETTING CAMERA SPEED Y
+prevY = currY;
+currY = y;
+var spdY = abs(prevY - currY);
+
+
