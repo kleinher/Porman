@@ -7,3 +7,9 @@ and have a good time so the gameplay might have suffer
 
 The code it's free for anyone to see it and do whatever you want with it.
 If you are interested in just playin you can download de .exe in the [itch.io](https://kleinher.itch.io/porman) page.
+
+Programmer: [Hernán Kleinubing](https://www.linkedin.com/in/hernan-kleinubing-a04685149/)
+
+Artist: [Gabriel Pelle](https://www.instagram.com/gabiidrawing/)
+
+Executive Producer: [Matias Schmied](https://twitter.com/maitan_69)
