@@ -12,4 +12,11 @@ If you are interested in just playin you can download de .exe in the [itch.io](h
 
 **Artist**: [Gabriel Pelle](https://www.instagram.com/gabiidrawing/)
 
-**Executive Producer**: [Matias Schmied](https://twitter.com/maitan_69)
+<h4>Menu principal</h4>
+
+![](menu-Porman.gif)
+
+<h4>Juego</h4>
+
+![](Juego.gif)
+
